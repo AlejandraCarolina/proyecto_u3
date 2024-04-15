@@ -41,7 +41,7 @@ class EmpleadosController {
     public function eliminar() {
         $id = $_GET['id'];
         $this->empleadosModel->eliminarEmpleado($id);
-        header("Location: index.php");
+        /*header("Location: index.php");*/
     }
 
         public function editar() {
